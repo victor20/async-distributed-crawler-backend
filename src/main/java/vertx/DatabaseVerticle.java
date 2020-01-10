@@ -17,7 +17,6 @@ public class DatabaseVerticle extends AbstractVerticle {
 	@Override
 	public void start(Future<Void> startFuture) {
 		
-		//String connectionString = "mongodb://192.168.99.100:27017";
 		String connectionString = "mongodb://localhost:27017";
 		JsonObject mongoJson = new JsonObject()
 				//.put("db_name", "canvas")
